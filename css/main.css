@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+  background-image: url("../../image/images.jpeg");
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+}
+
+.movies-title {
+  color: rgb(55, 153, 125);
+}
+
+.pag {
+  padding: 0;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.el-content {
+  margin: 0;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.el-list {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  background-color: black;
+  max-height: 381px;
+}
+
+.el-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 180px;
+  color: aliceblue;
+}
+
+img {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  ul {
+    gap: 25px;
+    font-size: 22px;
+  }
+  .el-div {
+    justify-content: center;
+    max-width: 140px;
+  }
+  .el-content {
+    padding-left: 25px;
+  }
+  .el-list {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+.el-button {
+  width: 20px;
+  height: 10px;
+  background-color: aqua;
+}
+
+@media (max-width: 350px) {
+  .pag {
+    max-width: 100px;
+    gap: 0;
+  }
+  .pagination {
+    max-width: 50px;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+@media (max-width: 599px) {
+  .pagination {
+    max-width: 100px;
+    gap: 0;
+  }
+}
+@media (max-width: 570px) {
+  .pagination {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
